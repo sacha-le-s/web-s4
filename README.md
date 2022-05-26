@@ -1,4 +1,8 @@
-# lolproject
+# Wild Rift
+Projet basé sur l'univers et l'esthétique du jeu
+mobile Wild Rift, réunissant quelques informations
+sur chacun des champions de cet univers sous forme
+d'une galerie de cartes.
 
 ## Project setup
 ```
