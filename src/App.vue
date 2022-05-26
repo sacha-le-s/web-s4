@@ -1,28 +1,44 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/pickoff.jpg">
-    <HelloWorld msg="Comp Builder"/>
+    <Menu id='menu'/>
+    <!-- <img alt="Vue logo" src="./assets/index.jpeg"> -->
+    <Content/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Menu from './components/menu.vue'
+import Content from './components/content.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Menu,
+    Content
   }
 }
 </script>
 
 <style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #131E37;
+  background: #ffffff;
+  width: 100%;
+  min-height: 100vh;
 }
+
 </style>
